@@ -1,7 +1,10 @@
-﻿namespace Net.Chdk.Providers.Crypto
+﻿using System.IO;
+
+namespace Net.Chdk.Providers.Crypto
 {
     public interface IHashProvider
     {
+        string GetHashString(Stream stream, string hashName);
         string GetHashString(string filePath, string hashName);
     }
 }
