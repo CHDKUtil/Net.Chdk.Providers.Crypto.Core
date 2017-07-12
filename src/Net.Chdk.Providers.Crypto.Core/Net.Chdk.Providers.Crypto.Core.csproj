@@ -9,7 +9,7 @@
 
   <PropertyGroup>
     <Version>0.1.0</Version>
-    <Crypto>CHIMP</Crypto>
+    <Product>CHIMP</Product>
     <Copyright>Copyright © 2017 Dmitry Shechtman</Copyright>
   </PropertyGroup>
 
